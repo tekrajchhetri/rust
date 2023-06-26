@@ -1,0 +1,14 @@
+cargo-features = ["edition2021"]
+
+[package]
+name = "snake_game"
+version = "0.1.0"
+edition = "2018"
+authors = ["Tek Raj Chhetri <tekraj.chhetri@cair-nepal.org>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+piston_window = "0.120.0"
+rand = "0.8.5"
