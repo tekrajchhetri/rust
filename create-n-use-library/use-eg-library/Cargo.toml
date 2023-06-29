@@ -1,0 +1,10 @@
+[package]
+name = "use-eg-library"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# because our library is not published on crates.io, we need to specify the path to it
+examplestdlibrary = { path = "../example-std-library/" }
