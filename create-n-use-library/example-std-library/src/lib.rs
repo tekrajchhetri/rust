@@ -47,7 +47,7 @@ mod tests {
     let expected_output = "Welcome Rust";
     let mut reader = Cursor::new(inputcmdline);
     let output = _read_stdin(&mut reader);
-    assert_eq!(output, expected_output, "The text should be Welcome Rust not Welcome Rust\n"");
+    assert_eq!(output, expected_output, "The text should be Welcome Rust not Welcome Rust\n");
 }
 
 #[test]
